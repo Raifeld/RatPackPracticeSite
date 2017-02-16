@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Rat Pack</title>
+	<link rel="stylesheet" type="text/css" href="bandstyles.css">
+	<style type="text/css">
+	#header{
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 96%;
+	height: 400px;
+	background-color: #716377;
+	padding: 10px;
+	margin: 50px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 10px solid #100;
+	border-radius: 800px;
+	text-align: center;
+	border-top-style: none;
+	border-bottom-style: none;
+	}
+	.socialmedia{
+		width: 50%;
+		height: 10%;
+		background-color: #c79ed1;
+		align-self: center;
+
+	}
+	#content{
+		display: inline-flex;
+		align-content: center;
+		width: 100%;
+		height: 700px;
+		background-color: #5b5a7a;
+		margin: auto;
+		box-sizing: border-box;
+		padding: 10px;
+		border-radius: 30px;
+		font-size: 0
+	}
+	.contentbox{
+		align-self: center;
+		width:33%;
+		height: 600px;
+		background-color: #c79ed1;
+		display: inline-block;
+		margin: 5px;
+		border-radius: 100px;
+		text-align: center;
+		padding: 10px;
+		font-size: 20px
+	}
+	.imgcontainer{
+		align-self: center;
+	}
+
+	body{
+		background-color: grey;
+	}
+	.hidetext{
+		background-color: red;
+	}	
+
+	.showtext{
+		background-color: blue;
+	}
+	h1{
+		align-self: center; <!-- not working?-->
+	}
+</style>
+</head>
+<body>
+	<div id="header">
+		<h1>The Rat Pack</h1>
+		<img align="center" src="ratpack1.jpeg" alt="The Rat Pack" height="75%" width="50%">
+		<div class="socialmedia">
+			<button name="twitterbutton" type="button">Twitter</button>
+			<button>Facebook</button>
+			<button>Youtube</button>
+			<button>Instagram</button>
+		</div>
+	</div>
+	<audio auto preload="auto" controls>
+		<source src="kingoftheroad.mp3" type="audio/mp3">
+		Your browser does not support this audio tag.
+	</audio>
+	<div id="content">
+		<div class="contentbox">
+		<h1>Book the band</h1>
+			<button>To The calender</button>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum, nibh ac dignissim rutrum, nibh nulla iaculis tellus, nec dapibus nulla eros eu nisi. Etiam leo odio, consectetur molestie iaculis vel, fringilla id neque.</p>
+			<div class="imgcontainer">
+				<img src="ratpack1.jpeg" alt="ratpack" height="50%" width="75%">
+			</div>
+		</div>
+		<div class="contentbox">
+			<h1>Buy The Music</h1>
+			<button>To iTunes</button>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum, nibh ac dignissim rutrum, nibh nulla iaculis tellus, nec dapibus nulla eros eu nisi. Etiam leo odio, consectetur molestie iaculis vel, fringilla id neque.</p>
+			<div class="imgcontainer">
+				<img src="ratpack1.jpeg" alt="ratpack" height="50%" width="75%">
+			</div>
+		</div>
+		<div class="contentbox">
+			<h1>See The Band</h1>
+			<button>To Youtube videos</button>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum, nibh ac dignissim rutrum, nibh nulla iaculis tellus, nec dapibus nulla eros eu nisi. Etiam leo odio, consectetur molestie iaculis vel, fringilla id neque.</p>
+			<div class="imgcontainer">
+				<img src="ratpack1.jpeg" alt="ratpack" height="50%" width="75%">
+			</div>
+		</div>
+		<script type="text/javascript" src="bandjava.js"></script>
+	</div>
+	<h1>Meet the Band</h1>
+	<div id="content">
+		<h1>Meet the band</h1> <!-- This isn't appearing?-->s
+		<div class="contentbox">
+			<p>Frank Sinatra</p>
+		</div>
+		<div class="contentbox">
+			<p>Dean Martin</p>
+		</div>
+		<div class="contentbox">
+			<p>Sammy Davis Jr</p>
+		</div>
+	</div>
+</body>
+</html>
